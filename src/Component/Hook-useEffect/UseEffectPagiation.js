@@ -23,7 +23,7 @@ const UseEffectPagiation = ({pagination, onPageChange}) => {
 
       <button
         disabled={_page >= totalPages}
-        onClick={() => onHandlePageChage(_page - 1)}
+        onClick={() => onHandlePageChage(_page + 1)}
       >
         Next
       </button>
