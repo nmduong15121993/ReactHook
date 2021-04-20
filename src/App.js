@@ -1,9 +1,13 @@
 import React from 'react';
 
 // import {UseStateHook} from "./Component/Hook-useState";
-import {UseEffectHook} from "./Component/Hook-useEffect";
+// import {UseEffectHook} from "./Component/Hook-useEffect";
 // import {UseReducer} from "./Component/Hook-useReducer";
 // import {UseContext} from "./Component/Hook-useContext";
+// import {UseContextTest} from "./Component/Hook-useContext";
+// import{EXuseContext} from "./Component/Hook-useContext/EXuseContext";
+
+import {UseReducerUseContext} from "./Component/useReducer-useContext";
 
 
 const App = () => {
@@ -20,12 +24,15 @@ const App = () => {
       </button>
       {/* <UseStateHook />
       <hr/> */}
-      <UseEffectHook />
+      {/* <UseEffectHook /> */}
       {/* <hr/>
-      <UseReducer />
-      <hr/>
-      <UseContext /> */}
-      
+      <UseReducer /> */}
+      {/* <hr/>
+      <UseContextTest />
+      <EXuseContext /> */}
+
+      <UseReducerUseContext />
+
     </div>
   )
 }

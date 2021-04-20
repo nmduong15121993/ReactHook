@@ -2,7 +2,7 @@ import React, { createContext, useState, useContext } from 'react';
 
 const ThemeContext = createContext("light");
 
-const UseContext  = () => {
+const UseContextTest  = () => {
   const [theme, setTheme] = useState("dark");
 
   return (
@@ -22,4 +22,4 @@ const Content = () => {
   return <h1>{theme}</h1>
 }
 
-export {UseContext}; 
+export {UseContextTest}; 
